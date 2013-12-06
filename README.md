@@ -1,24 +1,35 @@
-[ANN][PYC]Paycoin-PoW/PoS |Transaction Comment|Fair start|0 Premine
+[ANN][PAY]Paycoin-PoW/PoS |Transaction Comment|Re-Launch
 
-Version [1.0.0]
+Version [1.0.1]
 
 
 
-[Announcing Paycoin - PYC, the latest and most innovative PoW/PoS coin! Fair start and zero premined!
+[(re)Announcing Paycoin - PAY, the Reawakening.
 
-Paycoin combines the best from Bitcoin/Litecoin/Novacoin/Florincoin/Cosmoscoin, it uses both Proof of Work and Proof of Stake. This provides good resistence to 51% attack. It also supports transaction comments like Florincoin, so when you send transactions to the pay, you and your receiver won't be lost! Moreover, this coin has very low transaction fees (only 0.1% of most other coins), and fast transaction confirmation time (1.5 min). It provides steady coin supply at 3.5 coins per block.
+Paycoin combines Bitcoin/Litecoin/Novacoin/Florincoin/Cosmoscoin features, it uses both Proof of Work and Proof of Stake. This provides good resistance to 51% attacks. It also supports transaction comments like the original Florincoin, so when you send any transactions, you can include the reason for sending, and whatever else you want. Moreover, this coin has very low transaction fees (only 0.1% of most other coins), and fast transaction confirmation time (1.5 min). It provides steady coin supply at 3.5 coins per block.
 
-Paycoin has a fair start and zero premined, making it one of the very best of the alt coins exist today.
+Paycoin had a fair start and zero premined.
+
+About the Re-Launch:
+
+I (gorgorom) took over the development of this coin for a few reasons.
+1. Because I want to extend my knowledge of C programming and its counterparts.
+2. Because I really like the name, and believe I can make it go somewhere.
+3. To expierement and have a bit of fun in the progress.
+
+I believe any coin deserves a chance to shine. Why the developer made this coin and then abandoned it, I do not know. I want to get this coin promoted, and used for things besides pumping and dumping. I also chose this coin because of the low block reward. This helps to decrease inflation, and will be beneficial in the long term.
+
+Let the reawakening begin.
 
 
 Features:
 
 - Proof of Work Combined with Proof of Stake
-- Transacation Comment like FlorinCoin
+- Transaction comments like FlorinCoin
 - Low Transaction Fee (Min Fee is 0.00001 Coins)
-- Quick Confirmation fro Transaction
-- Resistence to 51% attack
-- Stable Reward Per Block (with the total number of 1 billion and reward 3.5 coins per block, the generation of paycoinis stable during more than 270 years)
+- Quick Confirmations
+- Resistance to 51% attacks
+- Stable Reward Per Block (with the total number of 1 billion and reward 3.5 coins per block, the generation of paycoins stable during more than 270 years)
 
 
 Specifications:
@@ -37,7 +48,7 @@ Specifications:
 
 
 Website:
-http://www.paycoin.co
+Being worked on.
 
 Blockchain Explorer:
 - to be added -
@@ -45,13 +56,21 @@ Blockchain Explorer:
 
 Sample Paycoin.conf:
 
-[code]listen=1
+rpcuser=username
+rpcpassword=xxxx
+listen=1
 daemon=1
 server=1
-rpcuser=**Yourusername**
-rpcpassword=**Yourpassword**
 rpcport=9289
 rpcconnect=127.0.0.1
+maxconnections=200
+rpcport=9289
+port=9288
+addnode=84.200.17.243
+addnode=106.186.115.58
+addnode=69.147.229.226
+addnode=64.251.188.66
+
 
 
 

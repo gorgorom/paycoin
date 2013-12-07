@@ -95,7 +95,8 @@
 Copyright © 2009-2012 Bitcoin developers
 Copyright © 2012 The PPcoin developers
 Copyright © 2013 The Novacoin developers
-Copyright © 2013 The Paycoin developers
+Copyright © 2013 The Paycoin developer(s)
+Special thanks to CrytoEnthusiast For Paycoin Logo
 	</string>
        </property>
        <property name="textInteractionFlags">
@@ -110,7 +111,7 @@ Copyright © 2013 The Paycoin developers
        </property>
        <property name="text">
         <string>
-This is experimental software.
+This is experimental software used for testing and will forever remain in beta.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

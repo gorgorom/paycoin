@@ -1,4 +1,4 @@
-// Copyright (c) 2012 The Paycoin developers
+// Copyright (c) 2012 The Paycoin developers, The Novacoin Developers, The Litecoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include <string>
@@ -11,7 +11,7 @@
 const std::string CLIENT_NAME("PayCoin");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-pyc"
+#define CLIENT_VERSION_SUFFIX   "-PAY"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
